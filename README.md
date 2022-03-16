@@ -30,7 +30,21 @@
 ---
 #### Analysis of Refactored code
 ---
-##### Per the analysis using the refactored code, the only changes from the original code are arrays were added to aid in the analysis process later down the line. As seen here: 
+##### Per the analysis using the refactored code, the only changes from the original code are arrays were added to aid in the analysis process later down the line. As seen here: ![image](https://user-images.githubusercontent.com/98365963/158493699-e202e871-f469-4b47-915b-70296ea016d6.png)
+##### After the arrays were added, the code was changed to use arrays instead of individual variables. The if statements are mostly the same; however, the last if statement is updated to increase the "tickerIndex" instead of just the "ticker" variable. Using this code, analyzing the data was rather simple. Let's look at the comparison between 2017 and 2018 as shown below:
+![Stock_2017_Analysis](https://user-images.githubusercontent.com/98365963/158494246-43daad6b-77d4-453d-b4e2-0a47ed6b150d.png)
+![Stock_2018_Analysis](https://user-images.githubusercontent.com/98365963/158494251-d8ffa4cf-f92b-4ce8-944b-cf7c8db2dd4f.png)
+##### Looking at the data from the analysis, between the two years, the only stock that continued to grow over time was "RUN." The "RUN" stock rose from a 5.5% gain to a 84% gain over the year. Based on this information, Steve's parents should put their money into the "RUN" stock and avoid the "DQ" stock. According to the data, "DQ" results in a 63% loss over the total year, which would lose them a lot of money. Another stock to consider is "ENPH," while it lost some of it's return from 2017 to 2018 it still had a high net gain. While this is still a loss, it's not a significant one. 
+---
+##### Looking at the code execution times, the results vary significantly. Here is the original run time for 2017:
+![Module_Code_2017](https://user-images.githubusercontent.com/98365963/158494774-f940d77e-fda8-4e53-94e8-27de9d67a375.png)
+##### Here is the original run time for 2018:
+![Module_Code_2018](https://user-images.githubusercontent.com/98365963/158494819-7ec0836a-dc97-4195-b0e0-391248c5149a.png)
+##### Here is the refactored code run time for 2017:
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/98365963/158494845-b2b1dfff-049d-48e4-aaa4-79fbe87ee467.png)
+##### Here is the refactored code run time for 2018:
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/98365963/158494872-c0e972fd-3725-4387-8618-e95e33806f70.png)
+##### Looking at these results, the execution times vary significantly. The refactored code takes a lot less time compared to the original code time. This is due to the codes simplification, and added efficiency. This is useful when new data is added, because using the refactored code would save a significant amount of time compared to the original code. 
 ---
 #### Summary
 ---
