@@ -1,6 +1,6 @@
 # An Analysis of Stock Trends
 ---
-## Performing analysis on Stock Data to uncover trends
+## Module 2: Performing analysis on Stock Data to uncover trends using Visual Basic Analysis (VBA)
 ---
 ### Stock Analysis on trends from 2017 and 2018
 ---
